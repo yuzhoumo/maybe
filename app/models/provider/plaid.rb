@@ -219,7 +219,8 @@ class Provider::Plaid
       if eu?
         [ "ES", "NL", "FR", "IE", "DE", "IT", "PL", "DK", "NO", "SE", "EE", "LT", "LV", "PT", "BE" ]  # EU supported countries
       else
-        [ "US", "CA" ] # US + CA only
+        # [ "US", "CA" ] # US + CA only
+        [ "US" ] # US only
       end
     end
 end
